@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3bfd475-1657-4aa6-a134-61af4b3901bb" name="Changes" comment="First rounds of notes">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Inheritance.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Item.kt" afterDir="false" />
+    <list default="true" id="a3bfd475-1657-4aa6-a134-61af4b3901bb" name="Changes" comment="a lot of topics covered">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Authenticate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/interfaces/CourseRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Notes-01.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Notes-01.md" afterDir="false" />
     </list>
@@ -25,6 +25,8 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -66,7 +68,14 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.InheritanceKt">
+  <component name="RunManager" selected="Kotlin.AuthenticateKt">
+    <configuration name="AuthenticateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.AuthenticateKt" />
+      <module name="kotlin-playground.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataClassCourseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.DataClassCourseKt" />
       <module name="kotlin-playground.main" />
@@ -95,20 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.PersonKt" />
-      <module name="kotlin-playground.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AuthenticateKt" />
         <item itemvalue="Kotlin.InheritanceKt" />
         <item itemvalue="Kotlin.ItemKt" />
         <item itemvalue="Kotlin.DataClassCourseKt" />
         <item itemvalue="Kotlin.PersonInitKt" />
-        <item itemvalue="Kotlin.PersonKt" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670789362723</updated>
       <workItem from="1670789367959" duration="6256000" />
-      <workItem from="1670797431365" duration="16282000" />
+      <workItem from="1670797431365" duration="18627000" />
     </task>
     <task id="LOCAL-00001" summary="Getting started">
       <created>1670801188090</created>
@@ -144,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670812300572</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="getting deeper...">
+      <created>1670819388225</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670819388225</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +174,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Getting started" />
     <MESSAGE value="First rounds of notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="First rounds of notes" />
+    <MESSAGE value="getting deeper..." />
+    <MESSAGE value="a lot of topics covered" />
+    <option name="LAST_COMMIT_MESSAGE" value="a lot of topics covered" />
   </component>
 </project>

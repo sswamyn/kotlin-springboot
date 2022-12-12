@@ -44,3 +44,97 @@ Coolest feature is the .copy() method to get a new instance with all the same at
 Similar to open keyword used to allow a class to be extended, open keyword can be used to allow for a function to be overloaded. 
 
 ### Overriding variables 
+
+## Object Keyword 
+
+'object' keyword allows us to create a class and an instance of it at the sametime. 
+Equivalent to singleton pattern in Java
+```
+
+object Authenticate {
+    fun authenticate(userId : String, password : String) {
+        println("Implement the auth framework") 
+    }
+}
+```
+Usage 
+```
+fun main() {
+        Authenticate.authenticate("userId", "passcode")
+}
+```
+
+### Companion object 
+
+> Equivalent to ```static``` in Java
+
+We have to use ```companion``` if we want to use ```object``` inside a class
+
+## Interfaces 
+
+Interfaces are very similar to Java interfaces. In Kotlin, we can have both abstract and non-abstract methods in it 
+Meaning, there can be some implementation within a Kotlin Interface. Catch is it cannot maintain any object state. 
+
+#### Interface with abstract method 
+interface CourseRepository {
+    fun getById(id: Int): Course
+}
+
+___Usage___
+```
+class SqlCourseRepository : CourseRepository {
+    override fun getById(id: Int): Course{
+    return Course(id = id, 
+                "Kafka for.. ",
+                "Swamy")   
+    }
+} 
+```
+
+#### Interface with abstract method + non-abstract (with implementation) method
+```
+interface CourseRepository {
+    fun getById(id: Int): Course
+    fun save(course: Course): Int {
+        println("Course: $course")
+        return course.id
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
