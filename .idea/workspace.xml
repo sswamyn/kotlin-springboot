@@ -4,27 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3bfd475-1657-4aa6-a134-61af4b3901bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Notes-01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/Conditions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/LabelsNReturns.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/LoopsNRanges.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/Variables.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/whileNdowhile.kt" afterDir="false" />
+    <list default="true" id="a3bfd475-1657-4aa6-a134-61af4b3901bb" name="Changes" comment="Getting started">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Constructors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/DataClassCourse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/PersonInit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/SecondaryConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/funNamedDefault.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/functions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/topLevelFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Notes-01.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Notes-01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basics/LabelsNReturns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/basics/LabelsNReturns.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basics/Variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/basics/Variables.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -63,38 +56,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.LabelsNReturnsKt">
-    <configuration name="ConditionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.ConditionsKt" />
+}]]></component>
+  <component name="RunManager" selected="Kotlin.DataClassCourseKt">
+    <configuration name="DataClassCourseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.DataClassCourseKt" />
       <module name="kotlin-playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LabelsNReturnsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.LabelsNReturnsKt" />
+    <configuration name="PersonInitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.PersonInitKt" />
       <module name="kotlin-playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopsNRangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.LoopsNRangesKt" />
+    <configuration name="PersonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.PersonKt" />
+      <module name="kotlin-playground.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.SecondaryConstructorKt" />
       <module name="kotlin-playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,19 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileNdowhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.WhileNdowhileKt" />
-      <module name="kotlin-playground.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.LabelsNReturnsKt" />
-        <item itemvalue="Kotlin.WhileNdowhileKt" />
-        <item itemvalue="Kotlin.LoopsNRangesKt" />
-        <item itemvalue="Kotlin.ConditionsKt" />
+        <item itemvalue="Kotlin.DataClassCourseKt" />
+        <item itemvalue="Kotlin.PersonInitKt" />
+        <item itemvalue="Kotlin.PersonKt" />
+        <item itemvalue="Kotlin.SecondaryConstructorKt" />
         <item itemvalue="Kotlin.VariablesKt" />
       </list>
     </recent_temporary>
@@ -133,8 +127,16 @@
       <option name="presentableId" value="Default" />
       <updated>1670789362723</updated>
       <workItem from="1670789367959" duration="6256000" />
-      <workItem from="1670797431365" duration="686000" />
+      <workItem from="1670797431365" duration="11427000" />
     </task>
+    <task id="LOCAL-00001" summary="Getting started">
+      <created>1670801188090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670801188090</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,5 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Getting started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting started" />
   </component>
 </project>

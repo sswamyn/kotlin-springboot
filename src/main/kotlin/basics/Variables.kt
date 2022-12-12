@@ -1,6 +1,10 @@
 package basics
 
+// Including Top level function from another package
+//import functions.topLevelFuncitons
+import functions.*
 fun main() {
+
     val name : String = "Swamy"
     println(name)
 
@@ -36,4 +40,9 @@ fun main() {
     """.trimIndent() // can be easily remove the indentations!
     println(multiLineStr2)
 
+    // Invoking a top-level function from another package
+    println("Random # is ${topLevelFuncitons()}")
+    // Top-level variable
+    println("Course name : ${functions.courseName}")
+    println("Course name : ${courseName}")
 }
