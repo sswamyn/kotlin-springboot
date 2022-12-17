@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3bfd475-1657-4aa6-a134-61af4b3901bb" name="Changes" comment="a lot of topics covered">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Authenticate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/interfaces/CourseRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/ReadFile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/ReadFromKafkaTopic.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Notes-01.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Notes-01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Authenticate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Authenticate.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +24,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -47,6 +48,8 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -54,21 +57,29 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path": "C:\\home\\kotlin\\kotlin-springboot\\kotlin-playground",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/home/kotlin/kotlin-springboot/kotlin-playground/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.46666667",
+    "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.AuthenticateKt">
+  <component name="RunManager" selected="Kotlin.ReadFileKt">
     <configuration name="AuthenticateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.AuthenticateKt" />
       <module name="kotlin-playground.main" />
@@ -97,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonInitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.PersonInitKt" />
+    <configuration name="ReadFileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.ReadFileKt" />
       <module name="kotlin-playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,15 +117,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ReadFileKt" />
         <item itemvalue="Kotlin.AuthenticateKt" />
         <item itemvalue="Kotlin.InheritanceKt" />
         <item itemvalue="Kotlin.ItemKt" />
         <item itemvalue="Kotlin.DataClassCourseKt" />
-        <item itemvalue="Kotlin.PersonInitKt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\swamy\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a3bfd475-1657-4aa6-a134-61af4b3901bb" name="Changes" comment="" />
@@ -123,7 +137,12 @@
       <option name="presentableId" value="Default" />
       <updated>1670789362723</updated>
       <workItem from="1670789367959" duration="6256000" />
-      <workItem from="1670797431365" duration="18627000" />
+      <workItem from="1670797431365" duration="19998000" />
+      <workItem from="1670896448911" duration="1713000" />
+      <workItem from="1670898222814" duration="2891000" />
+      <workItem from="1671067355338" duration="792000" />
+      <workItem from="1671069219199" duration="7872000" />
+      <workItem from="1671307003016" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="Getting started">
       <created>1670801188090</created>
@@ -153,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670819388225</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="a lot of topics covered">
+      <created>1670821708258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670821708258</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,5 +203,10 @@
     <MESSAGE value="getting deeper..." />
     <MESSAGE value="a lot of topics covered" />
     <option name="LAST_COMMIT_MESSAGE" value="a lot of topics covered" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
