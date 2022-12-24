@@ -1,6 +1,9 @@
 package interfaces
 
+// Abstract methods && Implementation (as long as no State)
+
 import classes.Course
+
 interface CourseRepository {
     fun getById(id: Int): Course
 }

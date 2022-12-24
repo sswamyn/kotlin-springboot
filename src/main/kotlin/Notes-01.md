@@ -192,10 +192,84 @@ Key advantages of using Data class
 * equals()
 * hashCode()
 * toString()
+* copy() // new instance with all the attributes copied
+
+#### Custom getters and setters
+
+Backing field is used to access the field directly from within get() and set()
+These get() and set() methods must be right below the field definition
+
+```
+class Item() { // there is no parameter in the Class definition 
+    var name : String = "TBD"
+    var price: Double
+    
+     // get ; get() = ... ; get() {... }
+    }
+}
+
+```
+
+#### Inheritance
+
+### use keyword ```open```
+
+Inheritance.kt
+
+....
+<hr>
+
+#### Visibility Modifiers
+
+* public [default]
+* protected : functions and variables are visible in the class and its sub-classes
+* private : function or variable will be accessible only within the class
+* internal : Is private to the module that's published using Gradle or Maven
+
+#### Type Checking, Casting & Smart Casting
+
+```is``` operator
+val name = "Swamy"
+println(name is String)
+<hr>
+
+### Nullable ```?```
+
+#### Safe Operator ```?```
+
+#### Elvis operator ```?:```
+
+#### Not-Null Assertion ```!!```
+
+___Nullable___
+to define a variable that can support Null
+> ```var nameNullable : String? = null ```
+
+___Safe call operator ?___<br>
+Inorder to avoid Null Pointer Exception
+
+> ``` val length = nameNullable?.length?.toLong() ``` <br>
+> The ? at the end of the variables directs Kotlin to check if it is Null, and do the operation only if it is not null
+
+___Elvis operator ?:___ <br>
+Use this to assign a 'default' value if/when the variable is NULL
+> ``` val length = nameNullable?.length ?: 0  ``` <br>
+> with ?: a value of 0 is assigned to _length_ if righthand side expression returns NULL
+
+___Not-Null Assertion !!___<br>
+
+When a variable has !! at the end of it, Kotlin will make sure it is not NULL.
+If the value is NULL, it will throw NullPointerException 
 
 
 
 
+
+
+
+
+
+ 
 
 
 

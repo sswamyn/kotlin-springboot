@@ -4,6 +4,7 @@ class Item() {
     var name: String = "TBD"
     var price: Double = 0.0
         //  get() = field // backing field access to the attributes '''field''' and '''value''' for setters
+        // In reality, we can use Spring to add get() and set() validations/logic
         get() {
             println("inside the getter funciton")
             return field
