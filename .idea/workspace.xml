@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3bfd475-1657-4aa6-a134-61af4b3901bb" name="Changes" comment="Continued learning..">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/exploerLambda2.kt" afterDir="false" />
+    <list default="true" id="a3bfd475-1657-4aa6-a134-61af4b3901bb" name="Changes" comment="bit more advanced">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/ExploerHashMap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/ExploerMap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/LazyCollections.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/NullableCollection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/exploerFilter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dataset/DataHelper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/collections/exploreLambda.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/collections/exploreLambda.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,37 +81,37 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.ExploerLambda2Kt">
-    <configuration name="CompanionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.CompanionKt" />
+  <component name="RunManager" selected="Kotlin.NullableCollectionKt">
+    <configuration name="ExploerFilterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.ExploerFilterKt" />
       <module name="kotlin-playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExploerLambda2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ExploerLambda2Kt" />
+    <configuration name="ExploerHashMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.ExploerHashMapKt" />
       <module name="kotlin-playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExploreCollectionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ExploreCollectionsKt" />
+    <configuration name="ExploerMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.ExploerMapKt" />
       <module name="kotlin-playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExploreLambdaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ExploreLambdaKt" />
+    <configuration name="LazyCollectionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.LazyCollectionsKt" />
       <module name="kotlin-playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleInterfaceInheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.MultipleInterfaceInheritanceKt" />
+    <configuration name="NullableCollectionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.NullableCollectionKt" />
       <module name="kotlin-playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ExploerLambda2Kt" />
-        <item itemvalue="Kotlin.ExploreLambdaKt" />
-        <item itemvalue="Kotlin.ExploreCollectionsKt" />
-        <item itemvalue="Kotlin.MultipleInterfaceInheritanceKt" />
-        <item itemvalue="Kotlin.CompanionKt" />
+        <item itemvalue="Kotlin.NullableCollectionKt" />
+        <item itemvalue="Kotlin.LazyCollectionsKt" />
+        <item itemvalue="Kotlin.ExploerHashMapKt" />
+        <item itemvalue="Kotlin.ExploerMapKt" />
+        <item itemvalue="Kotlin.ExploerFilterKt" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +146,7 @@
       <workItem from="1671069219199" duration="7872000" />
       <workItem from="1671307003016" duration="8302000" />
       <workItem from="1671317044054" duration="5103000" />
-      <workItem from="1671677267951" duration="11157000" />
+      <workItem from="1671677267951" duration="23270000" />
     </task>
     <task id="LOCAL-00001" summary="Getting started">
       <created>1670801188090</created>
@@ -193,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671903437094</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bit more advanced">
+      <created>1671928771230</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671928771230</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +228,8 @@
     <MESSAGE value="getting deeper..." />
     <MESSAGE value="a lot of topics covered" />
     <MESSAGE value="Continued learning.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Continued learning.." />
+    <MESSAGE value="bit more advanced" />
+    <option name="LAST_COMMIT_MESSAGE" value="bit more advanced" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -231,6 +243,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/collections/ExploerMap.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
