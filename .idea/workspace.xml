@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3bfd475-1657-4aa6-a134-61af4b3901bb" name="Changes" comment="Continued learning..">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Notes-Collections.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Companion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/ExploreCollections.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/exploreLambda.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/interfaces/InterfaceVariable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/interfaces/MultipleInterfaceInheritance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_2022_7_31_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_2022_7_31_PM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/exploerLambda2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Notes-01.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Notes-01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Authenticate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Authenticate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Inheritance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Inheritance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Item.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/interfaces/CourseRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/interfaces/CourseRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/collections/exploreLambda.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/collections/exploreLambda.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +77,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.ExploreLambdaKt">
+  <component name="RunManager" selected="Kotlin.ExploerLambda2Kt">
     <configuration name="CompanionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.CompanionKt" />
+      <module name="kotlin-playground.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExploerLambda2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.ExploerLambda2Kt" />
       <module name="kotlin-playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,13 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.ItemKt" />
-      <module name="kotlin-playground.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultipleInterfaceInheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfaces.MultipleInterfaceInheritanceKt" />
       <module name="kotlin-playground.main" />
@@ -126,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExploerLambda2Kt" />
         <item itemvalue="Kotlin.ExploreLambdaKt" />
         <item itemvalue="Kotlin.ExploreCollectionsKt" />
         <item itemvalue="Kotlin.MultipleInterfaceInheritanceKt" />
         <item itemvalue="Kotlin.CompanionKt" />
-        <item itemvalue="Kotlin.ItemKt" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +142,7 @@
       <workItem from="1671069219199" duration="7872000" />
       <workItem from="1671307003016" duration="8302000" />
       <workItem from="1671317044054" duration="5103000" />
-      <workItem from="1671677267951" duration="4497000" />
+      <workItem from="1671677267951" duration="11157000" />
     </task>
     <task id="LOCAL-00001" summary="Getting started">
       <created>1670801188090</created>
@@ -197,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671308855823</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Continued learning..">
+      <created>1671903437094</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671903437094</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
